@@ -6,7 +6,7 @@
 
 .card{
     display: grid;
-    grid-template-columns:repeat(4,1fr) ;
+    grid-template-columns:repeat(6,auto) ;
     gap: 15px;
     
 
@@ -20,3 +20,31 @@
 }
 
 
+
+
+@media (max-width:476px){
+    .card{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .lunch{
+        background-color: aquamarine;
+    }
+    h1{
+        color: blue;
+    }
+    }
+
+
+
+    @media (min-width:477)  and (max-width:676px){
+        .card{
+            grid-template-columns: repeat(2,1fr);
+        }
+        .lunch{
+            background-color: aquamarine;
+        }
+        h1{
+            color: blue;
+        }
+        }
+    
