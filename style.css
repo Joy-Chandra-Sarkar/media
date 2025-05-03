@@ -36,15 +36,27 @@
 
 
 
-    @media (min-width:477)  and (max-width:676px){
+    @media (min-width:477px)  and (max-width:676px) {
         .card{
-            grid-template-columns: repeat(2,1fr);
+            grid-template-columns: repeat(3,1fr);
         }
         .lunch{
-            background-color: aquamarine;
+            background-color: rgb(127, 255, 129);
         }
         h1{
-            color: blue;
+            color:yellowgreen;
         }
         }
     
+
+        @media (min-width:677px)  and (max-width:976px) {
+            .card{
+                grid-template-columns: repeat(5,1fr);
+            }
+            .lunch{
+                background-color: green;
+            }
+            h1{
+                color:gold;
+            }
+            }
